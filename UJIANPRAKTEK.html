@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TechLearn — belajar teknologi dengan cara yang sederhana.">
+  <title>TechLearn — Belajar Teknologi Lebih Mudah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#home">Tech<span>Learn</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#artikel">Artikel</a></li>
+        <li><a href="#kategori">Kategori</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+ <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <span class="eyebrow">PLATFORM BELAJAR TEKNOLOGI</span>
+        <h1>Belajar Teknologi<br><span>Lebih Mudah</span></h1>
+        <p>Temukan artikel dan tutorial tentang AI, programming, web development, dan teknologi.</p>
+        <a class="button button-primary" href="#artikel">Mulai Membaca <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-decoration decoration-one"></div>
+      <div class="hero-decoration decoration-two"></div>
+    </section>
+
+    <section class="section container" id="artikel">
+      <div class="section-heading">
+        <div><span class="eyebrow">PILIHAN EDITOR</span><h2>Artikel Pilihan</h2></div>
+        <a class="text-link" href="#artikel-terbaru">Lihat semua artikel →</a>
+      </div>
+      <article class="featured-card">
+        <div class="featured-art" aria-hidden="true">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="ai-symbol">AI</div>
+          <span class="spark spark-a">✦</span><span class="spark spark-b">✧</span>
+        </div>
+        <div class="featured-copy">
+          <span class="category-label">ARTIFICIAL INTELLIGENCE</span>
+          <h3>Memahami Machine Learning untuk Pemula</h3>
+          <p>Pelajari konsep dasar machine learning dan bagaimana komputer dapat belajar dari data.</p>
+          <a class="button button-dark" href="#machine-learning">Baca Artikel <span>→</span></a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section latest-section" id="artikel-terbaru">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">TAMBAH WAWASAN</span><h2>Artikel Terbaru</h2></div>
+        </div>
+        <div class="article-grid">
+          <article class="article-card">
+            <div class="article-art art-python"><span>Py</span></div>
+            <div class="article-body">
+              <span class="category-label">PROGRAMMING</span>
+              <h3>Belajar Python dari Dasar</h3>
+              <p>Panduan sederhana untuk memahami dasar-dasar Python.</p>
+              <a href="#python">Baca Selengkapnya <span>→</span></a>
+            </div>
+          </article>
+          <article class="article-card">
+            <div class="article-art art-web"><span>&lt;/&gt;</span></div>
+            <div class="article-body">
+              <span class="category-label">WEB DEVELOPMENT</span>
+              <h3>Mengenal HTML dan CSS</h3>
+              <p>Memahami bagaimana HTML dan CSS digunakan untuk membuat website.</p>
+              <a href="#html-css">Baca Selengkapnya <span>→</span></a>
+            </div>
+          </article>
+          <article class="article-card">
+            <div class="article-art art-neural"><span>◉</span><i></i><b></b></div>
+            <div class="article-body">
+              <span class="category-label">DEEP LEARNING</span>
+              <h3>Apa Itu Neural Network?</h3>
+              <p>Mengenal konsep neural network dengan penjelasan yang sederhana.</p>
+              <a href="#neural-network">Baca Selengkapnya <span>→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section container categories-section" id="kategori">
+      <div class="section-heading">
+        <div><span class="eyebrow">JELAJAHI TOPIK</span><h2>Kategori</h2></div>
+      </div>
+      <div class="category-list">
+        <a href="#ai" class="category-chip"><span>✦</span> AI</a>
+        <a href="#machine-learning" class="category-chip"><span>⌘</span> Machine Learning</a>
+        <a href="#deep-learning" class="category-chip"><span>◉</span> Deep Learning</a>
+        <a href="#programming" class="category-chip"><span>〈〉</span> Programming</a>
+        <a href="#web-development" class="category-chip"><span>▣</span> Web Development</a>
+      </div>
+    </section>
+  </main>
+  
+ <footer class="footer" id="about">
+    <div class="container footer-inner">
+      <div><a class="brand footer-brand" href="#home">Tech<span>Learn</span></a><p>Belajar teknologi dengan cara yang sederhana.</p></div>
+      <p class="copyright">© 2026 TechLearn</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
